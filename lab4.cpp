@@ -57,15 +57,20 @@ int main() {
     employee.displayDetails();
 
     double withdrawAmount, depositAmount;
+    int n;
+    cout << "emter 1 to withdraw & 2 to deposit";
+    cin>>n;
+    if(n==1){
 
     cout << "Enter Withdrawal Amount: ";
     cin >> withdrawAmount;
     employee.withdraw(withdrawAmount);
-
+    }
+    else{
     cout << "Enter Deposit Amount: ";
     cin >> depositAmount;
     employee.deposit(depositAmount);
-
+    }
     return 0;
 }
 
