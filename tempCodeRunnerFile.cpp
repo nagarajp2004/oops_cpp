@@ -1,6 +1,5 @@
-sort(p.begin(),p.end());
-
-// display(p);
-// cout << endl;
-// sort(p.rbegin(),p.rend());
-// display(p);
+ // void display(){
+    //     cout << name<<endl;
+    //     cout << age<<endl;
+    //     cout <<fee << endl;
+    // }
