@@ -1,5 +1,6 @@
- // void display(){
-    //     cout << name<<endl;
-    //     cout << age<<endl;
-    //     cout <<fee << endl;
-    // }
+
+    }
+    void showll(){
+        cout<<k;
+        show();
+    }
